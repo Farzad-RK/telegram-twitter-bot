@@ -5,7 +5,6 @@ from twitter import *
 from db import *
 import os
 
-''
 CHOICE,ADD,REMOVE = range(3)
 
 main_keyboard = [[KeyboardButton('Add sub')],[KeyboardButton('Remove sub')],[KeyboardButton('Send me the tweets')],[KeyboardButton('Stop sending tweets')]]
